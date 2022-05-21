@@ -1,0 +1,20 @@
+
+
+spring:
+  datasource:
+    url: jdbcpostgresql://localhost:5432/academia/
+    username: val
+    password: root
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate.format_sql: true
+
+logging:
+  level:
+    org:
+      hibernate:
+        type: true
+
